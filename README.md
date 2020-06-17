@@ -2,6 +2,22 @@
 
 A test assignment for a simple hide and seek game with AI in pure C++ and Unreal Engine 4
 
+### How to checkout
+
+Since [the game's Content directory hosted on GitLab as a separate submodule repository](https://gitlab.com/NuLL3rr0r/HideAndSeekWithAI_Content), for checking out the complete source code and assets, use the following instructions.
+
+For GitLab checkouts:
+
+```
+$ git clone --recursive --jobs 16 https://gitlab.com/NuLL3rr0r/HideAndSeekWithAI.git
+```
+
+For GitHub checkouts:
+
+```
+$ git clone --recursive --jobs 16 https://github.com/NuLL3rr0r/HideAndSeekWithAI.git
+```
+
 ### Introduction
 
 Create a new Basic Code project, with starter content, named "Hide and seek with AI" The best approach is to use C++ for building base gameplay systems and performance-critical code with Blueprints used to customize behavior or create composite behaviors from C++ building blocks. Your goal is to create a simple game prototype with AI Bots and a character controller.
